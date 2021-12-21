@@ -54,8 +54,8 @@ public static void main(String[] args) {
 
 ### Courses:
 - * [JavaScript](https://learn.javascript.ru/)
-- * [CSS] (https://ru.code-basics.com/languages/css)
-- * [HTML] (https://ru.code-basics.com/languages/html)
+- * [CSS](https://ru.code-basics.com/languages/css)
+- * [HTML](https://ru.code-basics.com/languages/html)
 - * Belhard Android
 
         
