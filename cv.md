@@ -26,24 +26,23 @@ I'm hardworking person,who wants to evolve in this field constantly and likes to
 
 ## Code Example:
 
-      ```jAVA
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-    when (item.itemId) {
-        R.id.action_stop -> {
-            Log.d(TAG, "actions_stop")
-            return true
-        }
-        R.id.action_clear -> {
-           // Log.d(TAG, "action_clear")
-            requestInput.text?.clear()
-            pods.clear()
-            podsAdapter.notifyDataSetChanged()
-            return true
-        }
-    }
-    return super.onOptionsItemSelected(item)
-} 
-   ```
+```java
+public static void main(String[] args) {
+	// write your code here
+     int month=7;
+ //Задание 2
+     if (month==1 || month==2 ||month==12)
+             System.out.println("зима");
+     else if (month==3 || month==4 || month==5 )
+            System.out.println("весна");
+     else if (month==6 || month==7 || month==8)
+            System.out.println("лето");
+     else if (month==9 || month==10 || month==11)
+            System.out.println("осень");
+     else
+             System.out.println("нет такого месяца в году");
+ 
+```
 
 ## Work Experience:
 
@@ -63,8 +62,3 @@ I'm hardworking person,who wants to evolve in this field constantly and likes to
 ## English:
 
 - * English level - A2 
-
-   
-
-
-
