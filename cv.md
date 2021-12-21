@@ -24,4 +24,23 @@ I'm hardworking person,who wants to evolve in this field constantly and likes to
 - * JavaScript (Basic)
 - * Git
 
+## Code Example:
 
+` override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    when (item.itemId) {
+        R.id.action_stop -> {
+            Log.d(TAG, "actions_stop")
+            return true
+        }
+        R.id.action_clear -> {
+           // Log.d(TAG, "action_clear")
+            requestInput.text?.clear()
+            pods.clear()
+            podsAdapter.notifyDataSetChanged()
+            return true
+
+        }
+    }
+    return super.onOptionsItemSelected(item)
+}
+`
