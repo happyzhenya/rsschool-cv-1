@@ -26,7 +26,8 @@ I'm hardworking person,who wants to evolve in this field constantly and likes to
 
 ## Code Example:
 
-` override fun onOptionsItemSelected(item: MenuItem): Boolean {
+    ```kotlin
+override fun onOptionsItemSelected(item: MenuItem): Boolean {
     when (item.itemId) {
         R.id.action_stop -> {
             Log.d(TAG, "actions_stop")
@@ -38,9 +39,12 @@ I'm hardworking person,who wants to evolve in this field constantly and likes to
             pods.clear()
             podsAdapter.notifyDataSetChanged()
             return true
-
         }
     }
     return super.onOptionsItemSelected(item)
-}
-`
+}   
+```
+
+## Work Experience:
+
+Nothing yet...
