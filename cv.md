@@ -26,8 +26,8 @@ I'm hardworking person,who wants to evolve in this field constantly and likes to
 
 ## Code Example:
 
-    ```kotlin
-override fun onOptionsItemSelected(item: MenuItem): Boolean {
+      ```jAVA
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
     when (item.itemId) {
         R.id.action_stop -> {
             Log.d(TAG, "actions_stop")
@@ -42,9 +42,29 @@ override fun onOptionsItemSelected(item: MenuItem): Boolean {
         }
     }
     return super.onOptionsItemSelected(item)
-}   
-```
+} 
+   ```
 
 ## Work Experience:
 
-Nothing yet...
+- * Minsk tractor plant - Delphi, SQL
+
+## Education:
+
+- * University: Belarusian National Technical University, Faculty of Information Technology and Robotics 
+
+### Courses:
+- * [JavaScript](https://learn.javascript.ru/)
+- * [CSS] (https://ru.code-basics.com/languages/css)
+- * [HTML] (https://ru.code-basics.com/languages/html)
+- * Belhard Android
+
+        
+## English:
+
+- * English level - A2 
+
+   
+
+
+
