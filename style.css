@@ -12,8 +12,10 @@ html {
   .main-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;}
-    
+    justify-content: space-between;
+    min-height: calc(100vh - 40vh);}
+
+  
     a{
       text-decoration: none;
       color: #8d3737;
@@ -35,7 +37,24 @@ html {
 .main {
    
 }
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
 
+}
+
+.nav-link {
+  
+    position: relative;
+    padding: 0 12px;
+    text-decoration: underline    ;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #fff;
+}
 
 header{
     background: #911f1f;
