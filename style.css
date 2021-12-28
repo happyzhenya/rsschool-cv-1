@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth; 
+  }
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -11,16 +14,26 @@
     flex-wrap: wrap;
     justify-content: space-between;}
     
-  body{    
+    a{
+      text-decoration: none;
+      color: #8d3737;
+      transition: color 0.5s;
+    }
+  body {    
     
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333030;;
+
 }
 .main {
-    background: red ;
-    min-height: calc(100vh - 40vh);
+   
 }
 
 
@@ -41,7 +54,7 @@ header{
     text-transform: uppercase;
     }
  .profile-photo{
-     width: 250px;
+    width: 250px;
      height: 250px;
     object-fit: cover;
      border-radius: 50%;
@@ -50,24 +63,57 @@ header{
     transition: .3s;
         }
 .profile-title{
-padding: 0;
-margin-top: 50px;
-color: #333030;
-font-size: 32px;
-font-weight: 300;
-letter-spacing: 10px;
-line-height: 50px;
-word-spacing: 3px;
-
+    padding: 0;
+    margin-top: 50px;
+    color: #333030;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 10px;
+    line-height: 50px;
+    word-spacing: 3px;
+    
 }
 .profile-subtitle{
     margin-top: 20px;
     color: #333030;
-    line-height: 50px;
-    font-weight: 300;
+    line-height: 40px;
+    font-weight: 200;
     letter-spacing: 2px;
+    font-size: 26px;
 } 
- 
+.section {
+    width: calc(50% - 20px);
+    padding: 10px;
+    padding-bottom: 10px;
+    
+}
+.section-title{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bolt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #333030;
+}
+.section-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+    vertical-align: baseline;
+}
+
+section-item {
+    position: relative;
+    margin: 0;
+        margin-bottom: 0px;
+    margin-bottom: 10px;
+    padding: 0;
+        padding-left: 0px;
+    padding-left: 30px;
+}
+
+
+
 footer {
   background: yellowgreen;
   height: 10vh;
