@@ -1,4 +1,48 @@
-body{    
-    font-family: 'Raleway', sans-serif;
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;}
+    
+  body{    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.main {
+    background: red ;
+    min-height: calc(100vh - 40vh);
 }
 
+header{
+    
+}
+#profile{
+ display: flex;
+justify-content: space-around;
+width: 100%;
+padding: 50px 30px 35px;
+border-bottom: 15px solid #d7d1c9;
+}
+footer {
+  background: yellowgreen;
+  height: 10vh;
+}
+.profile-photo{
+width: 300px;
+height: 300px;
+object-fit: cover;
+border-radius: 50%;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+filter: grayscale(0.2) brightness(1.05);
+transition: .3s;
+}
