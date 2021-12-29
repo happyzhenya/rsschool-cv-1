@@ -5,15 +5,16 @@ html {
     scroll-behavior: smooth; 
   }
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
-    min-height: 50px;
-  }
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+  
   .main-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    min-height: calc(100vh - 40vh);}
+  }
 
   
     a{
@@ -26,7 +27,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    min-width: 320px;
+    min-height: 100vh;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -34,9 +36,7 @@ html {
     color: #333030;;
 
 }
-.main {
-   
-}
+
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -101,7 +101,7 @@ header{
     font-size: 26px;
 } 
 .section {
-    width: calc(50% - 20px);
+  width: calc(50% - 20px);
     padding: 10px;
     padding-bottom: 10px;
     
@@ -135,7 +135,11 @@ header{
     background-size: 14px 14px;
     background-image: url(./assets/icons/circle-svgrepo-com.svg);
 }
-
+.code{
+  font-size: 16px;
+  padding: 0;
+   margin: 0;
+}
 
 
 footer {
