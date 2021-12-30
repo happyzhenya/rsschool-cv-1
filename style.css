@@ -151,8 +151,19 @@ header{
 
 
 footer {
-  background: yellowgreen;
+  background: #911f1f;
   height: 10vh;
 }
 
- 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+.mygithub{
+  color: white;
+  font-weight: bold;
+   
+}
