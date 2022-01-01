@@ -4,80 +4,182 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>CV</title>
 </head>
+
 <body>
-    <img src="./myfoto.jpg" alt="photo" height="300px"> 
 
-<h1> Sushkevich Eugenia</h1>
 
-    <h2>Contact Info</h2>
-    <ul>
-        <li> Location: Minsk, Belarus></li>
-        <li> Phone: +375 29 307-65-06></li>
-        <li> E-mail: happy.zhenya@gmail.com></li>
-        <li> GitHub: <a href="https://github.com/happyzhenya">happy.henya</a></li>
-        <li> Discord: EvgeniyaS</li>
-    </ul>
-    <h2>About me:</h2>
-    
-    <div>I’m hardworking person,who wants to evolve in this field constantly and likes to solve complex and difficult problems, as it gives lots of experience and helps to grow as a developer faster.
-    </div>
-       
-    <h2>Skills</h2>
-            
-    <ul>  
-        <li>SQL</li>
-        <li>Java(basics)</li>
-        <li>Kotlin(basics)</li>
-        <li>Android (basics)</li>
-        <li>HTML</li> 
-        <li>CSS/SASS</li>
-        <li>JavaScript (Basic)</li> 
-        <li>Git</li>
-     </ul>
-     <h2>Code Example:</h2> 
-     <pre>
-          <code class="code">
-         public static void main(String[] args) {
-             // write your code here
-              int month=7;
-          //Задание 2
-              if (month==1 || month==2 ||month==12)
-                      System.out.println("зима");
-              else if (month==3 || month==4 || month==5 )
-                     System.out.println("весна");
-              else if (month==6 || month==7 || month==8)
-                     System.out.println("лето");
-              else if (month==9 || month==10 || month==11)
-                     System.out.println("осень");
-              else
-                      System.out.println("нет такого месяца в году");
-          
-          </code>
- 
-     </pre>
-     <h2>Work Experience:</h2>
-     <ul>
-         <li>Minsk tractor plant - Delphi, SQL</li>
-     </ul>
-     <h2>Education:</h2>
-         <ul>
-         <li>University: Belarusian National Technical University, Faculty of Information Technology and Robotics</li>
+
+ <header class="header" >
+ <div class="container header-container">
+     <nav class="nav">
+         <ul class="nav-list"> 
+             <li>
+                 <a class="nav-link" href="#contacts">Contacts</a>
+             </li>
+             <li>
+                <a class="nav-link" href="#summary">About me</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#code">Code</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#courses">Courses</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#work">Work</a>
+
+            </li>
+            <li>
+                <a class="nav-link" href="#english">English</a>
+            </li>
          </ul>
-     <h3>Courses:</h3>
-      <ul>    
-         <li><a href="https://learn.javascript.ru/">JavaScript</a></li> 
-         <li><a href="https://ru.code-basics.com/languages/css">CSS</a></li>   
-         <li><a href="https://ru.code-basics.com/languages/html">HTML</a></li>    
-         <li>Belhard Android</li>   
+
+     </nav>
+     <section id="profile" >
+         <img class="profile-photo" src="./myfoto.jpg" alt="my photo" >
+         <div class="section-profile-title">
+             <h1 class="profile-title">Sushkevich Eugenia</h1>
+             <h2 class="profile-subtitle">Junior Front-End Developer</h2>
+         </div>
+     </section>
+ </div> 
+ </header>
+
+
+
+ <main class="main">
+    <div class="container main-container">
+     
+    <section id="contacts" class="section">
+    <h2 class="section-title">Contact Info</h2>
+    <ul class="section-list">
+        <li >
+          <img src="./assets/icons/location.svg" alt="location" width="20" height="20" >
+               Minsk, Belarus
+        </li>
+        <li>
+        <img src="./assets/icons/telephone.svg" alt="location" width="20" height="20">
+           +375 29 307-65-06></li>
+        <li>
+         <img src="./assets/icons/email.svg" alt="location" width="20" height="20">
+            <a href="mailto:happy.zhenya@gmail.com"> happy.zhenya@gmail.com </a>
+            
+            </li>
+        <li>
+            <img src="./assets/icons/github.svg" alt="location" width="20" height="20">
+             <a href="https://github.com/happyzhenya">happy.henya</a></li>
+        <li> 
+            <img src="./assets/icons/discord.svg" alt="location" width="20" height="20">
+           
+         EvgeniyaS</li>
+    </ul>
+</section>
+
+<section id="summary" class="section">
+<h2 class="section-title">About me</h2>
+<p>
+    I’m hardworking person,who wants to evolve in this field constantly and likes to solve complex and difficult problems, as it gives lots of experience and helps to grow as a developer faster.
+</p>
+</section>
+
+<section id="skills" class="section">
+    <h2 class="section-title">
+        Skills
+    </h2>
+    <ul class="section-list">  
+        <li class="section-item"> SQL</li>
+        <li class="section-item">Java(basics)</li>
+        <li class="section-item" >Kotlin(basics)</li>
+        <li class="section-item">Android (basics)</li>
+        <li class="section-item">HTML</li> 
+        <li class="section-item">CSS/SASS</li>
+        <li class="section-item">JavaScript (Basic)</li> 
+        <li class="section-item">Git</li>
      </ul>
-     <h2>English:</h2> 
-      <ul>
-         <li>English level - A2</li>
-      </ul> 
-          
-    
-</body>
-</html>
+</section>
+ <section id="code" class="section"> 
+      <h2 class="section-title" >
+        Code Example:
+      </h2>
+      <pre>
+        <code class="code">
+     public static void main(String[] args) {
+         int month=7;
+         if (month==1 || month==2 ||month==12)
+            System.out.println("зима");
+        else if (month==3 || month==4 || month==5 )
+             System.out.println("весна");
+        else if (month==6 || month==7 || month==8)
+             System.out.println("лето");
+        else if (month==9 || month==10 || month==11)
+            System.out.println("осень");
+        else
+            System.out.println("нет такого месяца в году");
+            </code>
+   </pre>
+  </section>   
+
+  <section id="education" class="section">
+      <h2 class="section-title"> Education</h2>
+      <ul class="section-list">
+        <li class="section-item">University: Belarusian National Technical University, Faculty of Information Technology and Robotics</li>
+        </ul>
+      
+</section> 
+
+  <section id="courses" class="section">
+ <h2 class="section-title">Courses</h2>   
+ <ul class="section-list">    
+    <li class="section-item"><a href="https://learn.javascript.ru/">JavaScript</a></li> 
+    <li class="section-item"><a href="https://ru.code-basics.com/languages/css">CSS</a></li>   
+    <li class="section-item"><a href="https://ru.code-basics.com/languages/html">HTML</a></li>    
+    <li class="section-item">Belhard Android</li>   
+</ul> 
+
+</section> 
+  <section id="Projects" class="section"> 
+      <h2 class="section-title">Projects</h2>
+      <a href="https://happyzhenya.github.io/rsschool-cv/">My first project</a>
+  </section> 
+
+
+  <section id="english" class="section">
+<h2 class="section-title"> English</h2>   
+<p>English level</p>   
+</section> 
+</div>
+ </main>
+  
+ 
+ <footer class="footer">
+        <div class="container footer-container">
+        <div>
+
+        <a class="mygithub" href="https://github.com/happyzhenya "><img src="./assets/icons/github2.svg" alt="Github" height="25" width="25"> Visit my GitHub</a>
+        </div>
+    <div>
+            ©  2022
+        </div>
+        <div>
+            
+            <a class="task" href="https://app.rs.school/"> <img src="./assets/icons/rs_school_js.svg" alt="logo" width="200" height="60"></a>
+        </div>
+        </div>
+ </footer> 
+
+
+
+
+  
